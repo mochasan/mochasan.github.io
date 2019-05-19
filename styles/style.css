@@ -141,17 +141,108 @@ h6 {
 /* Start Main */
 .main-home-one {
     float: left;
-    width: 50%;
+    width: 49.5%;
 }
 .main-home-two {
     float: right;
-    width: 50%;
+    width: 49.5%;
+}
+
+.main-home-one .box-isi,
+.main-home-two .box-isi {
+  height: 140px;
+}
+
+.main-one {
+  float: left;
+  overflow: auto;
+  width: 70%;
 }
 /* End Main */
 
-/* Start Box */
+/* Start Sidebar */
+.sidebar-two {
+  float: right;
+  overflow: auto;
+  width: 29%;
+}
+/* End Sidebar */
 
+/* Start Box */
+.box-heading {
+  background-color: #f6f8fa;
+  border: 1px solid #d1d5da;
+  border-radius: 3px 3px 0 0;
+  margin: 0;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+.box-heading h4 {
+  font-size: 14px;
+  margin: 0;
+}
+.box-isi {
+  background-color: #ffffff;
+  border: 1px solid #eaecef;
+  border-top: 0;
+  margin: 0;
+  padding: 10px 20px;
+}
 /* End Box */
+
+/* Start Testimoni */
+.testimoni {
+  border-left: 4px solid #dfe25e;
+  margin-left: 30px;
+  padding-left: 20px;
+}
+/* End Testimoni */
+
+/* Start Layanan Table */
+.layanan-table {
+  border: 1px solid #d1d5da;
+  border-collapse: collapse;
+  margin: auto;
+  width: 100%;
+}
+.layanan-table th {
+  background-color: #f6f8fa;
+}
+.layanan-table td {
+  text-align: center;
+}
+/* End Layanan Table */
+
+/* Start Form */
+input [type="text"]
+input [type="email"]
+textarea {
+  font-size: 14px;
+  padding: 10px;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #888888;
+  font-weight: 300;
+}
+
+input[type="submit"],
+.button {
+  background-color: #eff3f6;
+  background-image: linear-gradient(-180deg, #fafbfc 0%, #eff3f6 90%);
+  border: 1px solid rgba(27, 31, 35, 0.2);
+  border-radius: 4px;
+  color: #000000 !important;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 5px 0;
+  padding: 5px 10px;
+  text-decoration: none !important;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+/* End Form */
 
 /* Start Effect*/
 @import url(https://fonts.googleapis.com/css?family=Poppins:300);
@@ -295,3 +386,48 @@ h6 {
   opacity: 1;
 }
 /* End Effect*/
+
+/* Start Menu Sekunder */
+.menu-sekunder {
+  background-color: #f6f8fa;
+  border-bottom: 1px solid #eaecef;
+  border-top: 1px solid #eaecef;
+  overflow: auto
+  padding: 10px 0;
+}
+.menu-sekunder h4 {
+  font-size: 14px;
+  margin: 0 auto;
+  text-transform: uppercase;
+}
+.menu-sekunder ul {
+  padding: 0;
+}
+.menu-sekunder li {
+  list-style: disc;
+}
+
+.menu-sekunder li a,
+.menu-sekunder p {
+  font-size: 15px;
+}
+
+.menu-sekunder-one,
+.menu-sekunder-two,
+.menu-sekunder-three {
+  float: left;
+}
+.menu-sekunder-one {
+  width: 40%
+}
+.menu-sekunder-two,
+.menu-sekunder-three {
+  width: 30%
+}
+/* End Menu Sekunder */
+
+/* Start Copyright */
+.copyright p {
+  font-size: 15px;
+}
+/* End Copyright */
